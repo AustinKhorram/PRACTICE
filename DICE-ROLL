@@ -1,0 +1,15 @@
+# 2018-10-08
+# Austin Khorram
+# Dice Roll Simulator
+#
+# This program should output a number between 1 & 6 for as long as the user wants to generate them.
+
+# Test getRandom
+
+# Return a random integer between 1 & 6 (inclusive)
+def getRandom():
+    import random
+    dice_roll = random.randint(1,6)
+    return dice_roll
+
+print("Random number is: " + str(getRandom()) )
